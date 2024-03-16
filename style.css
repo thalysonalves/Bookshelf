@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserat', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  border: 1px ;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+main {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#btn-inscribe {
+  background-color: #000;
+  color: #fff;
+  width: 120px;
+  height: 28px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+article {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#section-bottom  {
+  margin-top: 30px;
+}
+
+#options {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-gender {
+  background-color: #1466e2;
+  border: none;
+  border-radius: 15px;
+  margin: 8px;
+  height: 33px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#options input[type="submit"]:first-of-type {
+  width: 90px;
+}
+
+#options input[type="submit"]:nth-of-type(2) {
+  width: 130px;
+}
+
+#options input[type="submit"]:nth-of-type(3) {
+  width: 80px;
+}
+
+#options input[type="submit"]:nth-of-type(4) {
+  width: 80px;
+}
+
+#options input[type="submit"]:nth-of-type(5) {
+  width: 85px;
+}
+
+#options input[type="submit"]:nth-of-type(6) {
+  width: 90px;
+  background-color: #000;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
