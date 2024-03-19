@@ -11,7 +11,8 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  border: 1px ;
+
+  border-bottom: 1px solid #000;
 }
 
 h1 {
@@ -19,9 +20,6 @@ h1 {
   font-weight: 300;
 }
 
-hr {
-  margin-top: 20px;
-}
 
 h2 {
   font-weight: 400;
@@ -30,6 +28,7 @@ h2 {
 
 main {
   text-align: center;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 
